@@ -33,14 +33,19 @@ async function removebackground() {
   // Loading the model
   const net = await bodyPix.load({
     architecture: 'MobileNetV1',
+    // architecture: 'ResNet50',
     outputStride: 16,
     multiplier: 0.75,
+    // multiplier: 1,
     quantBytes: 2
   });
   
   // Segmentation
   const { data:map } = await net.segmentPerson(canvas, {
-    internalResolution: 'medium',
+
+    // internalResolution: 'medium',
+    internalResolution: 'high',
+
   });
   
   
