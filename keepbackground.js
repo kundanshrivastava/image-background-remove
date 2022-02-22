@@ -3,7 +3,7 @@
  * 
  */
 function loadImage(src) {
-  alert('Hello')
+  // alert('Hello')
   const img = new Image();
   img.crossOrigin = '';
   const canvas = document.querySelector('canvas');
