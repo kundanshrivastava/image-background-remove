@@ -43,8 +43,8 @@ async function removebackground() {
   // Segmentation
   const { data:map } = await net.segmentPerson(canvas, {
 
-    // internalResolution: 'medium',
-    internalResolution: 'high',
+    internalResolution: 'medium',
+    // internalResolution: 'high',
 
   });
   
