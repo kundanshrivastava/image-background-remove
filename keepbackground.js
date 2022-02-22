@@ -69,4 +69,4 @@ async function keepbackground() {
   
 }
 
-loadImage('girl.jpg');
+loadImage('ronak.jpeg');

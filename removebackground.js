@@ -68,4 +68,4 @@ async function removebackground() {
   
 }
 
-loadImage('family.jpg');
+loadImage('ronak.jpeg');
